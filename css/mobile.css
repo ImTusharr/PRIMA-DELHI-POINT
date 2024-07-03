@@ -1,0 +1,92 @@
+@media only screen and (max-width:500px)
+{
+      /* For mobile phones: */
+      [id*=".about_us_main-"] 
+      {
+        visibility: hidden;
+      }
+}
+
+.about_us_main {
+  width: 0%;
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  
+
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 23px;
+    
+  }
+
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+    }
+
+  .content-right {
+    display: none;
+  }
+
+
+  @media only screen and (max-width: 500px)
+  {
+        /* For mobile phones: */
+        [class*=".home-article-"] 
+        {
+          width: 300rem;
+        }
+  }
+
+
+  .home-article {
+    flex-direction: column;
+  }
+
+  .home-article-img {
+    text-align: center;
+  }
+
+  .year-box {
+    top: 25px;
+    left: 60vw;
+    font-size: 11px;
+    display: flex;
+  }
+
+  .year-box div {
+    padding: 0 3px;
+    margin: 0;
+  }
+
+  .home-article img {
+    width: 70vw;
+  }
+  .form-input {
+    width: 50%;
+  }
+  .form-box input,
+  textarea {
+    width: 66vw;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .social {
+    padding: 0;
+  }
+  .post-img {
+    height: auto;
+    width: auto;;
+  }
+  .adjust-year {
+    position: static;
+    height: auto;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}
